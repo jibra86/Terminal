@@ -1,0 +1,33 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=10000
+SAVEHIST=10000
+bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/jibran/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
+# Syntax Highlighting
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# My Shell
+PROMPT="%F{#D90000}[%f%F{#F6D500}%B%n%b%f%F{#E4EC8E}@%f%F{#8EECB2}%B%m%b%f %F{#16FFE8}%B%~%b%f%F{#D90000}]%f "
+
+# My Aliases
+alias cds='cd ~/Documents/Study/'
+alias cdc='cd ~/Documents/Coding/'
+alias ls='ls -lh --color'
+alias yt='~/Git/yt/yt-dlp'
+alias spd='xset r rate 300 50'
+alias nv='nvim'
+alias tm='tmux'
+alias tmn='tmux new -s'
+alias red='redshift -O 3700'
+alias fast='xset r rate 300 50'
+alias python='python3'
+alias bac='feh --randomize --bg-fill ~/Pictures/'
+

@@ -13,7 +13,7 @@ compinit
 # End of lines added by compinstall
 
 # Syntax Highlighting
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # My Shell
 PROMPT="%F{#D90000}[%f%F{#F6D500}%B%n%b%f%F{#E4EC8E}@%f%F{#8EECB2}%B%m%b%f %F{#16FFE8}%B%~%b%f%F{#D90000}]%f "
@@ -32,10 +32,14 @@ alias fast='xset r rate 300 50'
 alias python='python3'
 alias bac='feh --randomize --bg-fill ~/Pictures/'
 alias bri='brightnessctl s'
+alias code='/home/jibran/Downloads/VSCode-linux-x64/code'
+alias thegear="flatpak run it.mijorus.gearlever"
 
 # Autostart
-neofetch
+pfetch
 
 # Zoxide
 eval "$(zoxide init bash)"
 
+# Editor
+export EDITOR=vim

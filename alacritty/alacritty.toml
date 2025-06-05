@@ -1,0 +1,28 @@
+[font.bold]
+family = "iosevka Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "iosevka Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "iosevka Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 1
+y = 1
+
+[window]
+dynamic_padding = true
+opacity = 0.85
+
+[window.padding]
+x = 5
+y = 5
+
+[general]
+import = [
+    "~/.config/alacritty/themes/hyper.toml"
+]

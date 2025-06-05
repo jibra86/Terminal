@@ -893,5 +893,5 @@ font:
 
   # Highlight window damage information.
   #highlight_damage: false
-import:
-  - ~/.config/alacritty/themes/rose-pine.yaml
+# import:
+#   - ~/.config/alacritty/themes/rose-pine.yaml
